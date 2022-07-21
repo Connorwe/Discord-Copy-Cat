@@ -21,13 +21,17 @@
 li {
     display: inline;
     text-align: center;
-    padding: 3em;
+    padding: 2.5em;
     font-family: sans-serif;
     font-style: bolder;
+    text-shadow: 1px 1px black;
 }
 .discord {
     color: white;
     padding-left: 10px
+}
+.login {
+    margin-left: 9em;
 }
 li:hover {
     cursor: pointer;
@@ -51,7 +55,7 @@ li:hover {
 .hero-caption {
     margin-right: 8em;
     margin-left: 8em;
-    margin-top: 3em;
+    margin-top: 2em;
     padding-right: 4em;
     padding-left: 4em;
     font-family: sans-serif;
@@ -66,5 +70,67 @@ h1 {
     letter-spacing: 2px;
     color: white;
     text-shadow: -1px 1px 0px white, 1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white;
+}
+.button-container {
+    padding: 2em;
+}
+.windows {
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+} 
+.windows:hover {
+    transition: all .2s ease-in-out; 
+    transform: scale(1.1);
+}  
+.browser {
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-left: 1em;
+}
+.browser:hover {
+    transition: all .2s ease-in-out; 
+    transform: scale(1.1);
+}
+.container-2 {
+    background-image: linear-gradient(white, gray);
+    margin: -1em;
+    min-height: 500px;
+}
+.game-img {
+    float: left;
+    width: 500px;
+    filter: contrast(100%);
+    filter: brightness(90%);
+    margin-left: -1em;
+}
+.game-img-caption {
+    align-items: center;
+    margin-top: 10em;
+    margin-left: 25em;
+    margin-right: 30em;
+    margin-bottom: 13em;
+}
+h2 {
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-left: 4em;
 }
 
