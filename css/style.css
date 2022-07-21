@@ -1,3 +1,6 @@
+body{
+    overflow-x:hidden;
+}
 .hero-img-container {
     border: solid black 1px;
     z-index: 1;
@@ -88,6 +91,7 @@ h1 {
 .windows:hover {
     transition: all .2s ease-in-out; 
     transform: scale(1.1);
+    cursor: pointer;
 }  
 .browser {
     background-color: lightgray;
@@ -104,6 +108,7 @@ h1 {
 .browser:hover {
     transition: all .2s ease-in-out; 
     transform: scale(1.1);
+    cursor: pointer;
 }
 .container-2 {
     background-image: linear-gradient(white, gray);
@@ -128,9 +133,51 @@ h2 {
     position: absolute;
     display: inline-block;
     vertical-align: top;
-    text-align: center;
+    text-align: middle;
     font-family: sans-serif;
     font-size: 20px;
     padding-left: 4em;
 }
-
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    min-height: 400px;
+    background-color: rgb(19, 18, 18);
+    background: fill;
+    margin-top: 1em;
+    margin-left: -10px;
+    margin-right: -10px;
+    opacity: 90%;
+}
+.item-1 {
+    color: #5865f2;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 900;
+    text-shadow: 1px 1px 0px rgb(19, 18, 18), 1px 1px 0 rgb(19, 18, 18), 1px 1px 0 , 1px 1px 0 rgb(19, 18, 18);
+    font-family: sans-serif;
+    justify-items: center;
+    padding-top: 2em;
+    margin-left: 3.5em;
+    margin-right: 1em;
+    inline-size: 400px;
+    overflow-wrap: break-word;
+}
+.item-2, .item-3, .item-4 {
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #5865f2;
+    padding-top: 6.45em;
+}
+h3 {
+    font-weight: 100;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    margin-right: 7em;
+    opacity: 80%;
+}
+h3:hover {
+    text-decoration: underline;
+}
